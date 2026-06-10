@@ -39,7 +39,7 @@ Through programmatic auditing of the data ecosystem, this analysis uncovered str
   * **34.5% of products (69 items)** are successfully maintained at a **Healthy** stock-to-sales velocity.
   * **0.5% (1 product)** was flagged as **Out of Stock**, causing immediate missed revenue opportunities.
 * **Business Deliverable:** Generated a live inventory matrix mapping running product revenues and supply-chain safety flags.
-* **🔗 Data File:** [View Product Stock Health Report](./data_outputs/product-inventory_stock_health.csv)
+* **🔗 Data File:** [View Product Stock Health Report](./data_outputs/product_inventory_stock_health.csv)
 
 ### 👥 2. Purchase Volume Segmentation (Objective 3)
 * **The Problem:** Lack of structural segmentation hiding clear definition around user purchasing distribution.
