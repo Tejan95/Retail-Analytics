@@ -39,7 +39,7 @@ Through programmatic auditing of the data ecosystem, this analysis uncovered str
   * **34.5% of products (69 items)** are successfully maintained at a **Healthy** stock-to-sales velocity.
   * **0.5% (1 product)** was flagged as **Out of Stock**, causing immediate missed revenue opportunities.
 * **Business Deliverable:** Generated a live inventory matrix mapping running product revenues and supply-chain safety flags.
-* **🔗 Data File:** [View Product Stock Health Report](./data_outputs/product-inventory_stock_health.csv)
+* **🔗 Data File:** [View Product Stock Health Report](./Data_Outputs/product-inventory_stock_health.csv)
 
 ### 👥 2. Purchase Volume Segmentation (Objective 3)
 * **The Problem:** Lack of structural segmentation hiding clear definition around user purchasing distribution.
@@ -49,7 +49,7 @@ Through programmatic auditing of the data ecosystem, this analysis uncovered str
   * **0.7% (7 customers)** represent an elite, disproportionately high-yield **High-Value Tier** (purchasing >30 units total).
   * **1.1% (11 customers)** are registered with **No Orders**, indicating a gap in onboarding conversion.
 * **Business Deliverable:** Extracted targeted audience sheets mapped directly to structural purchasing thresholds.
-* **🔗 Data File:** [View Customer Volume Segmentation](./data_outputs/customer_volume_segmentation.csv)
+* **🔗 Data File:** [View Customer Volume Segmentation](./Data_Outputs/customer_volume_segmentation.csv)
 
 ### 🎯 3. 3D RFM Framework & Churn Tracking (Objective 4)
 * **The Problem:** Unquantified customer lifecycle stages and hidden churn velocity risks.
@@ -58,7 +58,7 @@ Through programmatic auditing of the data ecosystem, this analysis uncovered str
   * **37.3% (369 customers)** are slipping into the **At Risk** window (31–90 days since last purchase), signaling a vital point for immediate automated re-engagement workflows.
   * Advanced **RFM (Recency, Frequency, Monetary)** behavioral clustering mapped the entire customer base into clear actionable tiers: **28.1% Loyal Customers**, **24.2% Potential Loyalists**, **21.5% At-Risk Users**, **18.4% Champions**, and **7.8% Lost Users**.
 * **Business Deliverable:** Provided the retention marketing team with pre-scored RFM tracking cohorts to launch precise re-engagement campaigns.
-* **🔗 Data Files:** [View Recency Churn Analysis](./data_outputs/customer_recency_churn_analysis.csv) | [View Ultimate RFM Matrix](./data_outputs/ultimate_customer_rfm_matrix.csv)
+* **🔗 Data Files:** [View Recency Churn Analysis](./Data_Outputs/customer_recency_churn_analysis.csv) | [View Ultimate RFM Matrix](./Data_Outputs/ultimate_customer_rfm_matrix.csv)
 
 ---
 
