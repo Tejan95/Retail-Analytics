@@ -1,0 +1,5 @@
+recency_status,num_customers,pct
+Active,502,50.8
+Lapsed,110,11.1
+" At Risk",369,37.3
+Churned,8,0.8
