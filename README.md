@@ -53,4 +53,25 @@ Through programmatic auditing of the data ecosystem, this analysis uncovered str
 
 ### 🎯 3. 3D RFM Framework & Churn Tracking (Objective 4)
 * **The Problem:** Unquantified customer lifecycle stages and hidden churn velocity risks.
-* **The Metrics
+* **The Metrics:**
+  * **50.8% of the buyer base (502 customers)** are currently **Active** having bought within the trailing 30 days.
+  * **37.3% (369 customers)** are slipping into the **At Risk** window (31–90 days since last purchase), signaling a vital point for immediate automated re-engagement workflows.
+  * Advanced **RFM (Recency, Frequency, Monetary)** behavioral clustering mapped the entire customer base into clear actionable tiers: **28.1% Loyal Customers**, **24.2% Potential Loyalists**, **21.5% At-Risk Users**, **18.4% Champions**, and **7.8% Lost Users**.
+* **Business Deliverable:** Provided the retention marketing team with pre-scored RFM tracking cohorts to launch precise re-engagement campaigns.
+* **🔗 Data Files:** [View Recency Churn Analysis](./data_outputs/customer_recency_churn_analysis.csv) | [View Ultimate RFM Matrix](./data_outputs/ultimate_customer_rfm_matrix.csv)
+
+---
+
+## 📁 Repository Directory Structure
+To maintain a corporate-ready project workspace, directories are organized cleanly into source scripts and final assets:
+```text
+📁 retail-analytics-project
+ │
+ ├── 📁 sql_scripts
+ │    └── Retail_Analytics_Project.sql       # Structured SQL file containing setup, cleaning, and objectives
+ │
+ └── 📁 data_outputs
+      ├── customer_volume_segmentation.csv   # Row-by-row customer volume classifications
+      ├── product-inventory_stock_health.csv # Catalog stock health and sales velocity rankings
+      ├── customer_recency_churn_analysis.csv# Lifecycle tracking segments
+      └── ultimate_customer_rfm_matrix.csv   # Combined demographic and 3D RFM loyalty matrix
