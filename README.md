@@ -66,10 +66,8 @@ Through programmatic auditing of the data ecosystem, this analysis uncovered str
 To maintain a corporate-ready project workspace, directories are organized cleanly into source scripts and final assets:
 ```text
 📁 retail-analytics-project
- │
  ├── 📁 sql_scripts
  │    └── Retail_Analytics_Project.sql       # Structured SQL file containing setup, cleaning, and objectives
- │
  └── 📁 data_outputs
       ├── customer_volume_segmentation.csv   # Row-by-row customer volume classifications
       ├── product-inventory_stock_health.csv # Catalog stock health and sales velocity rankings
